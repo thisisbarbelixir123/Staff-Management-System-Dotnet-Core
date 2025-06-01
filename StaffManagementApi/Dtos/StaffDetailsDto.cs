@@ -1,6 +1,6 @@
 public class StaffDetailsDto
 {
-    public required int Id { get; set; } 
+    public required int Id { get; set; }
     public required string FullName { get; set; }
     public required string NIM { get; set; }
     public required string BinusianId { get; set; }
@@ -21,4 +21,6 @@ public class StaffDetailsDto
     public required string EmergencyContact { get; set; }
     public required string EmergencyRelation { get; set; }
     public bool IsActive { get; set; }
+    public DateOnly? StartDate { get; set; }
+    public DateOnly? EndDate { get; set; }
 }

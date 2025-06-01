@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HugiEr6TCOM=",
+  "dgSpecHash": "YLbbXRkj2/w=",
   "success": true,
-  "projectFilePath": "D:\\latihan\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj",
+  "projectFilePath": "D:\\latihan\\.Net Core\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -17,6 +17,13 @@ public class StaffEndpoints : ControllerBase
         _fileService = fileService;
     }
 
+    [HttpGet]
+    public async Task<IActionResult> GetAllStaff()
+    {
+        var result = await _staffService.GetAllStaffDetailsAsync();
+        return Ok(result);
+    }
+
     [HttpGet("search")]
     public async Task<IActionResult> SearchStaff([FromQuery] string keyword)
     {
@@ -45,17 +52,17 @@ public class StaffEndpoints : ControllerBase
         return success ? Ok() : NotFound();
     }
 
-    [HttpDelete("delete/{id}")]
-    public async Task<IActionResult> DeleteStaff(int id)
-    {
-        var success = await _staffService.DeleteStaffAsync(id);
-        return success ? Ok() : NotFound();
-    }
-
     [HttpPost("terminate/{id}")]
     public async Task<IActionResult> TerminateStaff(int id)
     {
         var success = await _staffService.TerminateStaffAsync(id);
+        return success ? Ok() : NotFound();
+    }
+
+    [HttpDelete("delete/{id}")]
+    public async Task<IActionResult> DeleteStaff(int id)
+    {
+        var success = await _staffService.DeleteStaffAsync(id);
         return success ? Ok() : NotFound();
     }
 

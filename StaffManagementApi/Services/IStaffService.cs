@@ -6,7 +6,8 @@ namespace StaffManagementApi.Services
 {
     public interface IStaffService
     {
-        Task<IEnumerable<StaffSummaryDto>> GetAllStaffAsync();
+        Task<IEnumerable<StaffDetailsDto>> GetAllStaffDetailsAsync();
+        Task<IEnumerable<StaffSummaryDto>> GetStaffAsync();
         Task<StaffDetailsDto> GetStaffByIdAsync(int id);
         Task<StaffDetailsDto> CreateStaffAsync(CreateStaffDto staffDto);
         Task<bool> UpdateStaffAsync(int id, UpdateStaffDto staffDto);

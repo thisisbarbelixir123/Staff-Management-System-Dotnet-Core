@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\latihan\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj": {}
+    "D:\\latihan\\.Net Core\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj": {}
   },
   "projects": {
-    "D:\\latihan\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj": {
+    "D:\\latihan\\.Net Core\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\latihan\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj",
+        "projectUniqueName": "D:\\latihan\\.Net Core\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj",
         "projectName": "StaffManagementApi",
-        "projectPath": "D:\\latihan\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj",
+        "projectPath": "D:\\latihan\\.Net Core\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\StaffManagementApi.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "D:\\latihan\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\obj\\",
+        "outputPath": "D:\\latihan\\.Net Core\\Staff-Management-System-Dotnet-Core\\StaffManagementApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
